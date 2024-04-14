@@ -5,8 +5,9 @@ from datetime import datetime
 
 
 app = Flask(__name__, static_url_path='/static')
-
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:adminroot@localhost/my_database'
+# Initialise your sql locally, make a database and add it to the end of next line. For me, database name is
+# hey_taxi, my sql user name is 'root' and password is 'adminroot', change is accordingly :)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:adminroot@localhost/hey_taxi'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'dbmsshivangkomal'  # Change this to a secure secret key
 db = SQLAlchemy(app)
