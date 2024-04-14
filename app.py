@@ -71,7 +71,7 @@ class Ride(db.Model):
 class Admin(db.Model):
     __tablename__ = 'Adminn'
     ADMIN_ID = db.Column(db.String(10), primary_key=True)
-    PASSWD = db.Column(db.String(4), nullable=False)
+    PASSWD = db.Column(db.String(20), nullable=False)
 
 # Routes
 @app.route('/')
