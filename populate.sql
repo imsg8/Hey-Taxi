@@ -2,6 +2,25 @@
 INSERT INTO adminn (ADMIN_ID, passwd) VALUES ('0402', 'komal');
 INSERT INTO adminn (ADMIN_ID, passwd) VALUES ('0810', 'imsg');
 
+
+-- USERS:
+INSERT INTO users VALUES('C1', 'SHIVANG', 'shivangimsg@gmail.com', 'shivang', 1010101010, 'owner');
+INSERT INTO users VALUES('C10', 'AaravPatel', 'aarav.patel@example.com', 'passwordABC', 9449876543, 'employee');
+INSERT INTO users VALUES('C11', 'KritiSingh', 'kriti.singh@example.com', 'passwordXYZ', 8666789123, 'manager');
+INSERT INTO users VALUES('C12', 'LakshaySharma', 'lakshay.sharma@example.com', 'password123', 7123456789, 'employee');
+INSERT INTO users VALUES('C13', 'MiraYadav', 'mira.yadav@example.com', 'password456', 9987654321, 'employee');
+INSERT INTO users VALUES('C14', 'NehaGupta', 'neha.gupta@example.com', 'password789', 8555123456, 'manager');
+INSERT INTO users VALUES('C15', 'OmKhanna', 'om.khanna@example.com', 'passwordABC', 9449876543, 'employee');
+INSERT INTO users VALUES('C2', 'AnanyaVerma', 'ananya.verma@example.com', 'password123', 7123456789, 'employee');
+INSERT INTO users VALUES('C3', 'JyotiYadav', 'jyoti.yadav@example.com', 'password456', 9987654321, 'employee');
+INSERT INTO users VALUES('C4', 'ChandanKumar', 'chandan.kumar@example.com', 'password789', 8555123456, 'manager');
+INSERT INTO users VALUES('C5', 'DeepikaSingh', 'deepika.singh@example.com', 'passwordABC', 9449876543, 'employee');
+INSERT INTO users VALUES('C6', 'FahadKhan', 'fahad.khan@example.com', 'passwordXYZ', 8666789123, 'manager');
+INSERT INTO users VALUES('C7', 'GauravSharma', 'gaurav.sharma@example.com', 'password123', 7123456789, 'employee');
+INSERT INTO users VALUES('C8', 'HarshitaGupta', 'harshita.gupta@example.com', 'password456', 9987654321, 'employee');
+INSERT INTO users VALUES('C9', 'IshaanSingh', 'ishaan.singh@example.com', 'password789', 8555123456, 'manager');
+
+
 -- CUSTOMER:
 INSERT INTO customer VALUES ('C1', 'C1', 'Credit Card');
 INSERT INTO customer VALUES ('C10', 'C10', 'PayPal');
@@ -74,23 +93,6 @@ INSERT INTO ride VALUES ('R6', 'Location P', 'Location Q', 31, '2024-04-16', '16
 INSERT INTO ride VALUES ('R7', 'Location Q', 'Location R', 24, '2024-04-17', '16:30:00', 'C2', 'D2');
 INSERT INTO ride VALUES ('R8', 'Location R', 'Location S', 36, '2024-04-18', '17:00:00', 'C3', 'D3');
 INSERT INTO ride VALUES ('R9', 'Location S', 'Location T', 27, '2024-04-19', '17:30:00', 'C4', 'D4');
-
--- USERS:
-INSERT INTO users VALUES('C1', 'SHIVANG', 'shivangimsg@gmail.com', 'shivang', 1010101010, 'owner');
-INSERT INTO users VALUES('C10', 'AaravPatel', 'aarav.patel@example.com', 'passwordABC', 9449876543, 'employee');
-INSERT INTO users VALUES('C11', 'KritiSingh', 'kriti.singh@example.com', 'passwordXYZ', 8666789123, 'manager');
-INSERT INTO users VALUES('C12', 'LakshaySharma', 'lakshay.sharma@example.com', 'password123', 7123456789, 'employee');
-INSERT INTO users VALUES('C13', 'MiraYadav', 'mira.yadav@example.com', 'password456', 9987654321, 'employee');
-INSERT INTO users VALUES('C14', 'NehaGupta', 'neha.gupta@example.com', 'password789', 8555123456, 'manager');
-INSERT INTO users VALUES('C15', 'OmKhanna', 'om.khanna@example.com', 'passwordABC', 9449876543, 'employee');
-INSERT INTO users VALUES('C2', 'AnanyaVerma', 'ananya.verma@example.com', 'password123', 7123456789, 'employee');
-INSERT INTO users VALUES('C3', 'JyotiYadav', 'jyoti.yadav@example.com', 'password456', 9987654321, 'employee');
-INSERT INTO users VALUES('C4', 'ChandanKumar', 'chandan.kumar@example.com', 'password789', 8555123456, 'manager');
-INSERT INTO users VALUES('C5', 'DeepikaSingh', 'deepika.singh@example.com', 'passwordABC', 9449876543, 'employee');
-INSERT INTO users VALUES('C6', 'FahadKhan', 'fahad.khan@example.com', 'passwordXYZ', 8666789123, 'manager');
-INSERT INTO users VALUES('C7', 'GauravSharma', 'gaurav.sharma@example.com', 'password123', 7123456789, 'employee');
-INSERT INTO users VALUES('C8', 'HarshitaGupta', 'harshita.gupta@example.com', 'password456', 9987654321, 'employee');
-INSERT INTO users VALUES('C9', 'IshaanSingh', 'ishaan.singh@example.com', 'password789', 8555123456, 'manager');
 
 
 -- VEHICLE:
