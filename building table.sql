@@ -77,7 +77,10 @@ CREATE TABLE new_user_addition (
     PRIMARY KEY (USER_ID, REGISTRATION_DATE)
 );
 
-ALTER TABLE users ADD CONSTRAINT check_ten_digit_number
-CHECK (CHAR_LENGTH (PHONE_NUMBER) = 10 AND PHONE_NUMBER REGEXP '^[®-9]+$');
-ALTER TABLE users
-MODIFY COLUMN PHONE_NUMBER VARCHAR(15); -- Adjust the length as needed
+
+-- OPTIONAL :
+
+-- ALTER TABLE users ADD CONSTRAINT check_ten_digit_number
+-- CHECK (CHAR_LENGTH (PHONE_NUMBER) = 10 AND PHONE_NUMBER REGEXP '^[®-9]+$');
+-- ALTER TABLE users
+-- MODIFY COLUMN PHONE_NUMBER VARCHAR(15); -- Adjust the length as needed
