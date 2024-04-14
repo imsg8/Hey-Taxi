@@ -21,7 +21,7 @@ INSERT INTO users VALUES('C12', 'LakshaySharma', 'lakshay.sharma@example.com', '
 INSERT INTO users VALUES('C13', 'MiraYadav', 'mira.yadav@example.com', 'password456', 9987654321, 'employee');
 INSERT INTO users VALUES('C14', 'NehaGupta', 'neha.gupta@example.com', 'password789', 8555123456, 'manager');
 INSERT INTO users VALUES('C15', 'OmKhanna', 'om.khanna@example.com', 'passwordABC', 9449876543, 'employee');
-INSERT INTO users VALUES('C2', 'KomalMathur', 'komal.mathur@example.com', 'password123', 7123456789, 'employee');
+INSERT INTO users VALUES('C2', 'KomalMathur', 'komal.mathur@example.com', 'komal', 7123456789, 'employee');
 INSERT INTO users VALUES('C3', 'JyotiYadav', 'jyoti.yadav@example.com', 'password456', 9987654321, 'employee');
 INSERT INTO users VALUES('C4', 'ChandanKumar', 'chandan.kumar@example.com', 'password789', 8555123456, 'manager');
 INSERT INTO users VALUES('C5', 'DeepikaSingh', 'deepika.singh@example.com', 'passwordABC', 9449876543, 'employee');
