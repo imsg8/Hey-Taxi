@@ -76,22 +76,22 @@ INSERT INTO ride VALUES ('R8', 'Location R', 'Location S', 36, '2024-04-18', '17
 INSERT INTO ride VALUES ('R9', 'Location S', 'Location T', 27, '2024-04-19', '17:30:00', 'C4', 'D4');
 
 -- USERS:
-INSERT INTO users VALUES ('C1', 'SHIVANG', 'shivangimsg@gmail.com', 'shivang', 1010101010, 'owner');
-INSERT INTO users VALUES ('C10', 'JackAnderson', 'jack.anderson@example.com', 'passwordABC', 4449876543, 'employee');
-INSERT INTO users VALUES ('C11', 'KatherineLee', 'katherine.lee@example.com', 'passwordXYZ', 6667891234, 'manager');
-INSERT INTO users VALUES ('C12', 'LiamRodriguez', 'liam.rodriguez@example.com', 'password123', 1234567890, 'employee');
-INSERT INTO users VALUES ('C13', 'MiaGonzalez', 'mia.gonzalez@example.com', 'password456', 9876543210, 'employee');
-INSERT INTO users VALUES ('C14', 'NoahPerez', 'noah.perez@example.com', 'password789', 5551234567, 'manager');
-INSERT INTO users VALUES ('C15', 'OliviaTurner', 'olivia.turner@example.com', 'passwordABC', 4449876543, 'employee');
-INSERT INTO users VALUES ('C16', 'PeterHernandez', 'peter.hernandez@example.com', 'passwordXYZ', 6667891234, 'manager');
-INSERT INTO users VALUES ('C2', 'AliceSmith', 'alice.smith@example.com', 'password123', 1234567890, 'employee');
-INSERT INTO users VALUES ('C3', 'JaneDoe', 'jane.doe@example.com', 'password456', 9876543210, 'employee');
-INSERT INTO users VALUES ('C4', 'CharlieBrown', 'charlie.brown@example.com', 'password789', 5551234567, 'manager');
-INSERT INTO users VALUES ('C5', 'DianaRoss', 'diana.ross@example.com', 'passwordABC', 4449876543, 'employee');
-INSERT INTO users VALUES ('C6', 'EthanMiller', 'ethan.miller@example.com', 'passwordXYZ', 6667891234, 'manager');
-INSERT INTO users VALUES ('C7', 'GraceWilson', 'grace.wilson@example.com', 'password123', 1234567890, 'employee');
-INSERT INTO users VALUES ('C8', 'HenryGarcia', 'henry.garcia@example.com', 'password456', 9876543210, 'employee');
-INSERT INTO users VALUES ('C9', 'IsabellaMartinez', 'isabella.martinez@example.com', 'password789', 5551234567, 'manager');
+INSERT INTO users VALUES('C1', 'SHIVANG', 'shivangimsg@gmail.com', 'shivang', 1010101010, 'owner');
+INSERT INTO users VALUES('C10', 'AaravPatel', 'aarav.patel@example.com', 'passwordABC', 9449876543, 'employee');
+INSERT INTO users VALUES('C11', 'KritiSingh', 'kriti.singh@example.com', 'passwordXYZ', 8666789123, 'manager');
+INSERT INTO users VALUES('C12', 'LakshaySharma', 'lakshay.sharma@example.com', 'password123', 7123456789, 'employee');
+INSERT INTO users VALUES('C13', 'MiraYadav', 'mira.yadav@example.com', 'password456', 9987654321, 'employee');
+INSERT INTO users VALUES('C14', 'NehaGupta', 'neha.gupta@example.com', 'password789', 8555123456, 'manager');
+INSERT INTO users VALUES('C15', 'OmKhanna', 'om.khanna@example.com', 'passwordABC', 9449876543, 'employee');
+INSERT INTO users VALUES('C2', 'AnanyaVerma', 'ananya.verma@example.com', 'password123', 7123456789, 'employee');
+INSERT INTO users VALUES('C3', 'JyotiYadav', 'jyoti.yadav@example.com', 'password456', 9987654321, 'employee');
+INSERT INTO users VALUES('C4', 'ChandanKumar', 'chandan.kumar@example.com', 'password789', 8555123456, 'manager');
+INSERT INTO users VALUES('C5', 'DeepikaSingh', 'deepika.singh@example.com', 'passwordABC', 9449876543, 'employee');
+INSERT INTO users VALUES('C6', 'FahadKhan', 'fahad.khan@example.com', 'passwordXYZ', 8666789123, 'manager');
+INSERT INTO users VALUES('C7', 'GauravSharma', 'gaurav.sharma@example.com', 'password123', 7123456789, 'employee');
+INSERT INTO users VALUES('C8', 'HarshitaGupta', 'harshita.gupta@example.com', 'password456', 9987654321, 'employee');
+INSERT INTO users VALUES('C9', 'IshaanSingh', 'ishaan.singh@example.com', 'password789', 8555123456, 'manager');
+
 
 -- VEHICLE:
 INSERT INTO vehicle VALUES ('V1', 'Sedan', 4, 'D1');
