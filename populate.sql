@@ -4,14 +4,14 @@ INSERT INTO adminn (ADMIN_ID, passwd) VALUES ('0810', 'imsg');
 
 
 -- USERS:
-INSERT INTO users VALUES('C1', 'SHIVANG', 'shivangimsg@gmail.com', 'shivang', 1010101010, 'owner');
+INSERT INTO users VALUES('C1', 'ShivangGulati', 'shivangimsg@gmail.com', 'shivang', 1010101010, 'owner');
 INSERT INTO users VALUES('C10', 'AaravPatel', 'aarav.patel@example.com', 'passwordABC', 9449876543, 'employee');
 INSERT INTO users VALUES('C11', 'KritiSingh', 'kriti.singh@example.com', 'passwordXYZ', 8666789123, 'manager');
 INSERT INTO users VALUES('C12', 'LakshaySharma', 'lakshay.sharma@example.com', 'password123', 7123456789, 'employee');
 INSERT INTO users VALUES('C13', 'MiraYadav', 'mira.yadav@example.com', 'password456', 9987654321, 'employee');
 INSERT INTO users VALUES('C14', 'NehaGupta', 'neha.gupta@example.com', 'password789', 8555123456, 'manager');
 INSERT INTO users VALUES('C15', 'OmKhanna', 'om.khanna@example.com', 'passwordABC', 9449876543, 'employee');
-INSERT INTO users VALUES('C2', 'AnanyaVerma', 'ananya.verma@example.com', 'password123', 7123456789, 'employee');
+INSERT INTO users VALUES('C2', 'KomalMathur', 'komal.mathur@example.com', 'password123', 7123456789, 'employee');
 INSERT INTO users VALUES('C3', 'JyotiYadav', 'jyoti.yadav@example.com', 'password456', 9987654321, 'employee');
 INSERT INTO users VALUES('C4', 'ChandanKumar', 'chandan.kumar@example.com', 'password789', 8555123456, 'manager');
 INSERT INTO users VALUES('C5', 'DeepikaSingh', 'deepika.singh@example.com', 'passwordABC', 9449876543, 'employee');
