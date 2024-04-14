@@ -1,3 +1,13 @@
+-- Deleting all existing values from table;
+delete from adminn;
+delete from payment;
+delete from ride;
+delete from customer;
+delete from vehicle;
+delete from driver;
+delete from users;
+
+
 -- ADMINN:
 INSERT INTO adminn (ADMIN_ID, passwd) VALUES ('0402', 'komal');
 INSERT INTO adminn (ADMIN_ID, passwd) VALUES ('0810', 'imsg');
