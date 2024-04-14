@@ -10,20 +10,20 @@ delete from new_user_addition;
 
 -- USERS:
 INSERT INTO users VALUES('U1', 'ShivangGulati', 'shivangimsg@gmail.com', 1234, 10101, 'admin');
-INSERT INTO users VALUES('U10', 'AaravPatel', 'aarav.patel@example.com', 'passwordABC', 94498, 'customer');
-INSERT INTO users VALUES('U11', 'KritiSingh', 'kriti.singh@example.com', 'passwordXYZ', 866678, 'customer');
-INSERT INTO users VALUES('U12', 'LakshaySharma', 'lakshay.sharma@example.com', 'password123', 71234, 'customer');
-INSERT INTO users VALUES('U13', 'MiraYadav', 'mira.yadav@example.com', 'password456', 99871, 'customer');
-INSERT INTO users VALUES('U14', 'NehaGupta', 'neha.gupta@example.com', 'password789', 855512, 'customer');
-INSERT INTO users VALUES('U15', 'OmKhanna', 'om.khanna@example.com', 'passwordABC', 94498, 'customer');
-INSERT INTO users VALUES('U2', 'KomalMathur', 'komal.mathur@example.com', 1234, 712345, 'admin');
-INSERT INTO users VALUES('U3', 'JyotiYadav', 'jyoti.yadav@example.com', 'password456', 998765, 'customer');
-INSERT INTO users VALUES('U4', 'ChandanKumar', 'chandan.kumar@example.com', 'password789', 855512, 'customer');
-INSERT INTO users VALUES('U5', 'DeepikaSingh', 'deepika.singh@example.com', 'passwordABC', 944987, 'driver');
-INSERT INTO users VALUES('U6', 'FahadKhan', 'fahad.khan@example.com', 'passwordXYZ', 86667, 'driver');
-INSERT INTO users VALUES('U7', 'GauravSharma', 'gaurav.sharma@example.com', 'password123', 7123459, 'driver');
-INSERT INTO users VALUES('U8', 'HarshitaGupta', 'harshita.gupta@example.com', 'password456', 998761, 'driver');
-INSERT INTO users VALUES('U9', 'IshaanSingh', 'ishaan.singh@example.com', 'password789', 855512, 'driver');
+INSERT INTO users VALUES('U10', 'AaravPatel', 'aarav.patel@yahoo.com', 'passwordABC', 94498, 'customer');
+INSERT INTO users VALUES('U11', 'KritiSingh', 'kriti.singh@gmail.com', 'passwordXYZ', 866678, 'customer');
+INSERT INTO users VALUES('U12', 'LakshaySharma', 'lakshay.sharma@yahoo.com', 'password123', 71234, 'customer');
+INSERT INTO users VALUES('U13', 'MiraYadav', 'mira.yadav@gmail.com', 'password456', 99871, 'customer');
+INSERT INTO users VALUES('U14', 'NehaGupta', 'neha.gupta@yahoo.com', 'password789', 855512, 'customer');
+INSERT INTO users VALUES('U15', 'OmKhanna', 'om.khanna@gmail.com', 'passwordABC', 94498, 'customer');
+INSERT INTO users VALUES('U2', 'KomalMathur', 'komal.mathur@yahoo.com', 1234, 712345, 'admin');
+INSERT INTO users VALUES('U3', 'JyotiYadav', 'jyoti.yadav@gmail.com', 'password456', 998765, 'customer');
+INSERT INTO users VALUES('U4', 'ChandanKumar', 'chandan.kumar@yahoo.com', 'password789', 855512, 'customer');
+INSERT INTO users VALUES('U5', 'DeepikaSingh', 'deepika.singh@gmail.com', 'passwordABC', 944987, 'driver');
+INSERT INTO users VALUES('U6', 'FahadKhan', 'fahad.khan@yahoo.com', 'passwordXYZ', 86667, 'driver');
+INSERT INTO users VALUES('U7', 'GauravSharma', 'gaurav.sharma@gmail.com', 'password123', 7123459, 'driver');
+INSERT INTO users VALUES('U8', 'HarshitaGupta', 'harshita.gupta@yahoo.com', 'password456', 998761, 'driver');
+INSERT INTO users VALUES('U9', 'IshaanSingh', 'ishaan.singh@gmail.com', 'password789', 855512, 'driver');
 
 -- CUSTOMER:
 INSERT INTO customer VALUES ('C1', 'U10', 'PayPal');
