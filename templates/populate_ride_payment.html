@@ -68,6 +68,10 @@
 
     <form method="POST" action="{{ url_for('populate_ride_payment') }}">
         <h2>Populate Ride and Payment Tables</h2>
+
+        <label for="customer_id">Customer ID:</label>
+        <input type="text" name="customer_id" required>
+
         <label for="ride_id">Ride ID:</label>
         <input type="text" name="ride_id" required>
 

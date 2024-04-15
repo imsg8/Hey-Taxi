@@ -209,13 +209,14 @@ def populate_customer():
 @app.route('/populate_ride_payment', methods=['GET', 'POST'])
 def populate_ride_payment():
     if request.method == 'POST':
+        customer_id = request.form['customer_id']
         ride_id = request.form['ride_id']
         start_location = request.form['start_location']
         end_location = request.form['end_location']
         fare = request.form['fare']
         date_of_ride = request.form['date_of_ride']
         time_of_ride = request.form['time_of_ride']
-        customer_id = session['user_id']
+        # customer_id = session['user_id']
         driver_id = request.form['driver_id']
         
         ride = Ride(RIDE_ID=ride_id, START_LOCATION=start_location, END_LOCATION=end_location,
