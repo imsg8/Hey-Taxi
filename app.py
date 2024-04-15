@@ -167,10 +167,17 @@ def update_driver():
 
 @app.route('/view_ride_payment_details')
 def view_ride_payment_details():
-    driver_id = session.get('user_id')
+    user_id = session.get('user_id')
+    # Perform a join between the User and Driver tables to retrieve the driver_id
+    driver_id = db.session.query(Driver.DRIVER_ID).join(Users).filter(Users.USER_ID == user_id).scalar()
+    #print(driver_id)
+    #driver_id = session.get('user_id')
+    customer_id = db.session.query(Customer.CUSTOMER_ID).join(Users).filter(Users.USER_ID == user_id).scalar()
     rides = Ride.query.filter_by(DRIVER_ID=driver_id).all()
-    payments = Payment.query.filter_by(CUSTOMER_ID=driver_id).all()
+    print(rides)
+    payments = Payment.query.filter_by(CUSTOMER_ID=customer_id).all()
     return render_template('view_ride_payment_details.html', rides=rides, payments=payments)
+
 
 
 @app.route('/customer_operations', methods=['GET', 'POST'])
