@@ -34,7 +34,7 @@
 
 2. [Report](https://github.com/imsg8/Hey-Taxi/blob/main/DBMS_Lab_End_Sem_Mini-Project.pdf) : This is the report that was submitted.
 
-3. [Triggers](https://github.com/imsg8/Hey-Taxi/blob/main/All%20Triggers.md) : These are the 12 triggers that were implemented on the database.
+3. [Triggers](https://github.com/imsg8/Hey-Taxi/blob/main/All%20Triggers.md) : These are the 12 triggers that can be implemented on the database.
 
 4. [All Tables](https://github.com/imsg8/Hey-Taxi/blob/main/building%20table.sql) : This is the file that contains all the table creation SQL commands.
 
