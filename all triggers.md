@@ -187,3 +187,38 @@
     END$$
     DELIMITER ;
     ```
+
+## 11. New User Addition Trigger
+
+- **Description**: Keeps track of new users added to the system in the new_user_addition table.
+- **Trigger Event**: AFTER INSERT ON USERS
+- **Trigger Action**:
+    ```sql
+    DELIMITER $$
+    CREATE TRIGGER add_user_to_new_user_addition
+    AFTER INSERT ON USERS
+    FOR EACH ROW
+    BEGIN
+        INSERT INTO new_user_addition (USER_ID, EMAIL, PHONE_NUMBER, ROLE, REGISTRATION_DATE)
+        VALUES (NEW.USER_ID, NEW.EMAIL, NEW.PHONE_NUMBER, NEW.ROLE, NOW());
+    END$$
+    DELIMITER ;
+    ```
+
+## 12. Admin Addition Trigger
+
+- **Description**: Adds new users who are administrators to the admin table.
+- **Trigger Event**: AFTER INSERT ON USERS
+- **Trigger Action**:
+    ```sql
+    DELIMITER $$
+    CREATE TRIGGER add_admin_to_admin_table
+    AFTER INSERT ON USERS
+    FOR EACH ROW
+    BEGIN
+        IF NEW.ROLE = 'admin' THEN
+            INSERT INTO admin (ADMIN_ID, passwd) VALUES (NEW.USER_ID, NEW.passwd);
+        END IF;
+    END$$
+    DELIMITER ;
+    ```
