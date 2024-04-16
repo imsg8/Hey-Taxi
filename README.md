@@ -32,14 +32,14 @@
 
 1. [Main File](https://github.com/imsg8/Hey-Taxi/blob/main/app.py) : This is the main file that should be compiled and run in order to view the project.
 
-2. [DBMS_Lab_End_Sem_Mini-Project.pdf](https://github.com/imsg8/Hey-Taxi/blob/main/DBMS_Lab_End_Sem_Mini-Project.pdf) : This is the report that was submitted.
+2. [Report](https://github.com/imsg8/Hey-Taxi/blob/main/DBMS_Lab_End_Sem_Mini-Project.pdf) : This is the report that was submitted.
 
 3. [Triggers](https://github.com/imsg8/Hey-Taxi/blob/main/All%20Triggers.md) : These are the 12 triggers that were implemented on the database.
 
-4. [https://github.com/imsg8/Hey-Taxi/blob/main/building%20table.sql](All Tables) : This is the file that contains all the table creation SQL commands.
+4. [All Tables](https://github.com/imsg8/Hey-Taxi/blob/main/building%20table.sql) : This is the file that contains all the table creation SQL commands.
 
-5. [https://github.com/imsg8/Hey-Taxi/blob/main/conectivity%20explained%20using%20python.py](Connectivity) : This has code to explain the connectivity.
+5. [Connectivity](https://github.com/imsg8/Hey-Taxi/blob/main/conectivity%20explained%20using%20python.py) : This has code to explain the connectivity.
 
-6. [https://github.com/imsg8/Hey-Taxi/blob/main/populate.sql](Table Filling) : Run this on the database to populate all tables.
+6. [Table Filling](https://github.com/imsg8/Hey-Taxi/blob/main/populate.sql) : Run this on the database to populate all tables.
 
-7. [https://github.com/imsg8/Hey-Taxi/blob/main/sql-queries.sql](SQL Queries) : These are the set of queries that can be implemented for demonstration.
+7. [SQL Queries](https://github.com/imsg8/Hey-Taxi/blob/main/sql-queries.sql) : These are the set of queries that can be implemented for demonstration.
